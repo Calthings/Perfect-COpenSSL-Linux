@@ -15,6 +15,7 @@
 #include "openssl/cms.h"
 #include "openssl/evp.h"
 #include "openssl/ecdsa.h"
+#include "openssl/eng_int.h"
 #include "openssl/engine.h"
 
 static int copenssl_EVP_MD_size(const EVP_MD *md) {
